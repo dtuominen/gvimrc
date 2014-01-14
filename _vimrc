@@ -2,30 +2,25 @@
 set nocompatible
 filetype off
 
-set rtp+=C:\Vim\vimfiles\bundle\vundle\
+set rtp+=~/.vim/bundle/vundle/
 
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
-Bundle 'scrooloose/nerdtree.git'
-Bundle 'tpope/vim-surround.git'
-Bundle 'withgod/vim-sourcepawn.git'
-Bundle 'ervandew/supertab.git'
-Bundle 'molokai'
-Bundle 'The-NERD-Commenter'
-Bundle 'Tagbar'
-Bundle 'pep8'
 
-let g:bundle_dir='C:\Vim\vimfiles\bundle'
+Bundle 'scrooloose/nerdtree.git'
+Bundle 'withgod/vim-sourcepawn.git'
+Bundle 'molokai'
+
 
 filetype plugin indent on
 
 " ---------------------- "
 set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class   
 set background=dark
-colorscheme solarized
 syntax enable
 set t_Co=256
+colorscheme molokai
 " set rtp+=C:\\Vim\\vim73\\,C:\\Vim\\vim73\\autoload
 
 
